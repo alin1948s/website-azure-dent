@@ -1,0 +1,102 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1220px"
+    },
+    "color": {
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "ink", "name": "Bleumarin", "color": "#18303b" },
+        { "slug": "teal", "name": "Teal", "color": "#3d7772" },
+        { "slug": "sage", "name": "Salvie", "color": "#9aa68e" },
+        { "slug": "ivory", "name": "Ivoire", "color": "#f7f5ef" },
+        { "slug": "sand", "name": "Nisip", "color": "#e8e2d7" },
+        { "slug": "white", "name": "Alb", "color": "#ffffff" }
+      ]
+    },
+    "spacing": {
+      "units": ["px", "rem", "%", "vw"],
+      "spacingSizes": [
+        { "slug": "small", "name": "Mic", "size": "clamp(0.75rem, 1.5vw, 1rem)" },
+        { "slug": "medium", "name": "Mediu", "size": "clamp(1.25rem, 2.5vw, 2rem)" },
+        { "slug": "large", "name": "Mare", "size": "clamp(2rem, 5vw, 4rem)" },
+        { "slug": "x-large", "name": "Foarte mare", "size": "clamp(3rem, 8vw, 7rem)" }
+      ]
+    },
+    "typography": {
+      "fluid": true,
+      "customFontSize": false,
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+          "name": "Sans",
+          "slug": "sans"
+        },
+        {
+          "fontFamily": "Georgia, 'Times New Roman', serif",
+          "name": "Serif",
+          "slug": "serif"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "name": "Mic", "size": "0.9rem" },
+        { "slug": "medium", "name": "Mediu", "size": "1.125rem" },
+        { "slug": "large", "name": "Mare", "size": "clamp(1.5rem, 3vw, 2rem)" },
+        { "slug": "x-large", "name": "Titlu", "size": "clamp(2.4rem, 6vw, 5rem)" }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#f7f5ef",
+      "text": "#18303b"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|sans",
+      "fontSize": "1rem",
+      "lineHeight": "1.65"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|serif",
+          "fontWeight": "400",
+          "lineHeight": "1.08"
+        },
+        "color": { "text": "#18303b" }
+      },
+      "link": {
+        "color": { "text": "#3d7772" },
+        ":hover": { "color": { "text": "#18303b" } }
+      },
+      "button": {
+        "border": { "radius": "999px" },
+        "typography": { "fontWeight": "600" }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "background": "#18303b",
+          "text": "#ffffff"
+        },
+        "border": { "radius": "999px" },
+        "spacing": { "padding": { "top": "0.85rem", "right": "1.35rem", "bottom": "0.85rem", "left": "1.35rem" } }
+      },
+      "core/quote": {
+        "border": { "left": { "color": "#9aa68e", "width": "3px" } },
+        "color": { "text": "#18303b" }
+      }
+    }
+  }
+}

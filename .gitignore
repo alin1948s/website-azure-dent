@@ -1,0 +1,11 @@
+# Local client proposal and original build prompt are intentionally kept out of the public repo.
+/Oferta-Website-Azur-Dent.pdf
+/prompt.txt
+
+# Local WordPress Playground/runtime data.
+/wordpress-playground/
+/wp-content/database/
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
